@@ -1,3 +1,2 @@
-FROM alpine
-COPY . .
-RUN index.html
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
